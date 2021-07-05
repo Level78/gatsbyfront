@@ -1,0 +1,57 @@
+const { hot } = require("react-hot-loader/root")
+
+// prefer default export if available
+const preferDefault = m => (m && m.default) || m
+
+
+exports.components = {
+  "component---pages-404-js": hot(preferDefault(require("C:\\Users\\HP\\Desktop\\gatsby front\\theFront-v3.2.2\\gatsbyjs\\pages\\404.js"))),
+  "component---pages-about-js": hot(preferDefault(require("C:\\Users\\HP\\Desktop\\gatsby front\\theFront-v3.2.2\\gatsbyjs\\pages\\about.js"))),
+  "component---pages-about-side-cover-js": hot(preferDefault(require("C:\\Users\\HP\\Desktop\\gatsby front\\theFront-v3.2.2\\gatsbyjs\\pages\\about-side-cover.js"))),
+  "component---pages-account-js": hot(preferDefault(require("C:\\Users\\HP\\Desktop\\gatsby front\\theFront-v3.2.2\\gatsbyjs\\pages\\account.js"))),
+  "component---pages-agency-js": hot(preferDefault(require("C:\\Users\\HP\\Desktop\\gatsby front\\theFront-v3.2.2\\gatsbyjs\\pages\\agency.js"))),
+  "component---pages-blog-article-js": hot(preferDefault(require("C:\\Users\\HP\\Desktop\\gatsby front\\theFront-v3.2.2\\gatsbyjs\\pages\\blog-article.js"))),
+  "component---pages-blog-newsroom-js": hot(preferDefault(require("C:\\Users\\HP\\Desktop\\gatsby front\\theFront-v3.2.2\\gatsbyjs\\pages\\blog-newsroom.js"))),
+  "component---pages-blog-reach-view-js": hot(preferDefault(require("C:\\Users\\HP\\Desktop\\gatsby front\\theFront-v3.2.2\\gatsbyjs\\pages\\blog-reach-view.js"))),
+  "component---pages-blog-search-js": hot(preferDefault(require("C:\\Users\\HP\\Desktop\\gatsby front\\theFront-v3.2.2\\gatsbyjs\\pages\\blog-search.js"))),
+  "component---pages-career-listing-js": hot(preferDefault(require("C:\\Users\\HP\\Desktop\\gatsby front\\theFront-v3.2.2\\gatsbyjs\\pages\\career-listing.js"))),
+  "component---pages-career-listing-minimal-js": hot(preferDefault(require("C:\\Users\\HP\\Desktop\\gatsby front\\theFront-v3.2.2\\gatsbyjs\\pages\\career-listing-minimal.js"))),
+  "component---pages-career-opening-js": hot(preferDefault(require("C:\\Users\\HP\\Desktop\\gatsby front\\theFront-v3.2.2\\gatsbyjs\\pages\\career-opening.js"))),
+  "component---pages-cloud-hosting-js": hot(preferDefault(require("C:\\Users\\HP\\Desktop\\gatsby front\\theFront-v3.2.2\\gatsbyjs\\pages\\cloud-hosting.js"))),
+  "component---pages-company-terms-js": hot(preferDefault(require("C:\\Users\\HP\\Desktop\\gatsby front\\theFront-v3.2.2\\gatsbyjs\\pages\\company-terms.js"))),
+  "component---pages-contact-page-cover-js": hot(preferDefault(require("C:\\Users\\HP\\Desktop\\gatsby front\\theFront-v3.2.2\\gatsbyjs\\pages\\contact-page-cover.js"))),
+  "component---pages-contact-page-js": hot(preferDefault(require("C:\\Users\\HP\\Desktop\\gatsby front\\theFront-v3.2.2\\gatsbyjs\\pages\\contact-page.js"))),
+  "component---pages-contact-sidebar-map-js": hot(preferDefault(require("C:\\Users\\HP\\Desktop\\gatsby front\\theFront-v3.2.2\\gatsbyjs\\pages\\contact-sidebar-map.js"))),
+  "component---pages-coworking-js": hot(preferDefault(require("C:\\Users\\HP\\Desktop\\gatsby front\\theFront-v3.2.2\\gatsbyjs\\pages\\coworking.js"))),
+  "component---pages-design-company-js": hot(preferDefault(require("C:\\Users\\HP\\Desktop\\gatsby front\\theFront-v3.2.2\\gatsbyjs\\pages\\design-company.js"))),
+  "component---pages-desktop-app-js": hot(preferDefault(require("C:\\Users\\HP\\Desktop\\gatsby front\\theFront-v3.2.2\\gatsbyjs\\pages\\desktop-app.js"))),
+  "component---pages-documentation-js": hot(preferDefault(require("C:\\Users\\HP\\Desktop\\gatsby front\\theFront-v3.2.2\\gatsbyjs\\pages\\documentation.js"))),
+  "component---pages-e-commerce-js": hot(preferDefault(require("C:\\Users\\HP\\Desktop\\gatsby front\\theFront-v3.2.2\\gatsbyjs\\pages\\e-commerce.js"))),
+  "component---pages-e-learning-js": hot(preferDefault(require("C:\\Users\\HP\\Desktop\\gatsby front\\theFront-v3.2.2\\gatsbyjs\\pages\\e-learning.js"))),
+  "component---pages-enterprise-js": hot(preferDefault(require("C:\\Users\\HP\\Desktop\\gatsby front\\theFront-v3.2.2\\gatsbyjs\\pages\\enterprise.js"))),
+  "component---pages-expo-js": hot(preferDefault(require("C:\\Users\\HP\\Desktop\\gatsby front\\theFront-v3.2.2\\gatsbyjs\\pages\\expo.js"))),
+  "component---pages-help-center-article-js": hot(preferDefault(require("C:\\Users\\HP\\Desktop\\gatsby front\\theFront-v3.2.2\\gatsbyjs\\pages\\help-center-article.js"))),
+  "component---pages-help-center-js": hot(preferDefault(require("C:\\Users\\HP\\Desktop\\gatsby front\\theFront-v3.2.2\\gatsbyjs\\pages\\help-center.js"))),
+  "component---pages-home-js": hot(preferDefault(require("C:\\Users\\HP\\Desktop\\gatsby front\\theFront-v3.2.2\\gatsbyjs\\pages\\home.js"))),
+  "component---pages-index-js": hot(preferDefault(require("C:\\Users\\HP\\Desktop\\gatsby front\\theFront-v3.2.2\\gatsbyjs\\pages\\index.js"))),
+  "component---pages-job-listing-js": hot(preferDefault(require("C:\\Users\\HP\\Desktop\\gatsby front\\theFront-v3.2.2\\gatsbyjs\\pages\\job-listing.js"))),
+  "component---pages-logistics-js": hot(preferDefault(require("C:\\Users\\HP\\Desktop\\gatsby front\\theFront-v3.2.2\\gatsbyjs\\pages\\logistics.js"))),
+  "component---pages-mobile-app-js": hot(preferDefault(require("C:\\Users\\HP\\Desktop\\gatsby front\\theFront-v3.2.2\\gatsbyjs\\pages\\mobile-app.js"))),
+  "component---pages-not-found-cover-js": hot(preferDefault(require("C:\\Users\\HP\\Desktop\\gatsby front\\theFront-v3.2.2\\gatsbyjs\\pages\\not-found-cover.js"))),
+  "component---pages-not-found-js": hot(preferDefault(require("C:\\Users\\HP\\Desktop\\gatsby front\\theFront-v3.2.2\\gatsbyjs\\pages\\not-found.js"))),
+  "component---pages-password-reset-cover-js": hot(preferDefault(require("C:\\Users\\HP\\Desktop\\gatsby front\\theFront-v3.2.2\\gatsbyjs\\pages\\password-reset-cover.js"))),
+  "component---pages-password-reset-simple-js": hot(preferDefault(require("C:\\Users\\HP\\Desktop\\gatsby front\\theFront-v3.2.2\\gatsbyjs\\pages\\password-reset-simple.js"))),
+  "component---pages-portfolio-grid-js": hot(preferDefault(require("C:\\Users\\HP\\Desktop\\gatsby front\\theFront-v3.2.2\\gatsbyjs\\pages\\portfolio-grid.js"))),
+  "component---pages-portfolio-masonry-js": hot(preferDefault(require("C:\\Users\\HP\\Desktop\\gatsby front\\theFront-v3.2.2\\gatsbyjs\\pages\\portfolio-masonry.js"))),
+  "component---pages-portfolio-page-js": hot(preferDefault(require("C:\\Users\\HP\\Desktop\\gatsby front\\theFront-v3.2.2\\gatsbyjs\\pages\\portfolio-page.js"))),
+  "component---pages-pricing-js": hot(preferDefault(require("C:\\Users\\HP\\Desktop\\gatsby front\\theFront-v3.2.2\\gatsbyjs\\pages\\pricing.js"))),
+  "component---pages-rental-js": hot(preferDefault(require("C:\\Users\\HP\\Desktop\\gatsby front\\theFront-v3.2.2\\gatsbyjs\\pages\\rental.js"))),
+  "component---pages-service-js": hot(preferDefault(require("C:\\Users\\HP\\Desktop\\gatsby front\\theFront-v3.2.2\\gatsbyjs\\pages\\service.js"))),
+  "component---pages-signin-cover-js": hot(preferDefault(require("C:\\Users\\HP\\Desktop\\gatsby front\\theFront-v3.2.2\\gatsbyjs\\pages\\signin-cover.js"))),
+  "component---pages-signin-simple-js": hot(preferDefault(require("C:\\Users\\HP\\Desktop\\gatsby front\\theFront-v3.2.2\\gatsbyjs\\pages\\signin-simple.js"))),
+  "component---pages-signup-cover-js": hot(preferDefault(require("C:\\Users\\HP\\Desktop\\gatsby front\\theFront-v3.2.2\\gatsbyjs\\pages\\signup-cover.js"))),
+  "component---pages-signup-simple-js": hot(preferDefault(require("C:\\Users\\HP\\Desktop\\gatsby front\\theFront-v3.2.2\\gatsbyjs\\pages\\signup-simple.js"))),
+  "component---pages-startup-js": hot(preferDefault(require("C:\\Users\\HP\\Desktop\\gatsby front\\theFront-v3.2.2\\gatsbyjs\\pages\\startup.js"))),
+  "component---pages-web-basic-js": hot(preferDefault(require("C:\\Users\\HP\\Desktop\\gatsby front\\theFront-v3.2.2\\gatsbyjs\\pages\\web-basic.js")))
+}
+

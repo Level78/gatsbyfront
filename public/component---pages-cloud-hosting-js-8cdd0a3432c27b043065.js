@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[44],{wSqL:function(n,t,a){"use strict";a.r(t);var e=a("q1tI"),o=a.n(e),c=a("y5Kd"),u=a("Exl5"),w=a("69Y9");t.default=function(){return o.a.createElement(w.a,{component:c.a,layout:u.a})}}}]);
+//# sourceMappingURL=component---pages-cloud-hosting-js-8cdd0a3432c27b043065.js.map

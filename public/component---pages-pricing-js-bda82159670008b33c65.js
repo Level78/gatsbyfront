@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[71],{Tee0:function(n,e,t){"use strict";t.r(e);var a=t("q1tI"),o=t.n(a),c=t("2WyB"),u=t("Exl5"),p=t("69Y9");e.default=function(){return o.a.createElement(p.a,{component:c.a,layout:u.a})}}}]);
+//# sourceMappingURL=component---pages-pricing-js-bda82159670008b33c65.js.map
