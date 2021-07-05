@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 // import { Button } from '@material-ui/core'
-import Video from 'assets/videos/dar.mp4'
+import Video from 'assets/videos/pexe.mp4'
 // import Hero from 'views/Logistics/components/Hero'
 
 
