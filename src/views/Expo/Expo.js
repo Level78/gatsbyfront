@@ -6,7 +6,7 @@ import Ceo from './components/Ceo'
 import Managingd from './components/Managingd'
 import Vpsupport from './components/Vpsupport'
 import Gpm from './components/Gpm'
-import PromoSwiper from './components/PromoSwiper'
+import PromoSwiper from './components'
 
 import {
   
