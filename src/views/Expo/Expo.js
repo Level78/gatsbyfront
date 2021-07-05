@@ -75,8 +75,7 @@ const Expo = () => {
       <Section>
         <Advantages data={advantages} />
       </Section>
-    
-      
+ 
       <Divider />
       <SectionAlternate>
         <PromoSwiper data ={promo}/>
