@@ -90,8 +90,8 @@ const Hero = props => {
             title="Single cell resolution to maximize biological insight"
             subtitle={<span className={classes.price}>Chromium Controller</span>}
             ctaGroup={[
-              <Button variant="contained" color="primary" size="large">
-                Buy now
+              <Button variant="disabled" color="primary" size="large">
+                Explore Quickbook
               </Button>,
                 <FormControlLabel
                 control={<Switch checked={checked} onChange={handleChange} />}

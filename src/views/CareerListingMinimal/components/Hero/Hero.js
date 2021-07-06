@@ -9,13 +9,13 @@ import { Section } from 'components/organisms';
 const useStyles = makeStyles(theme => ({
   root: {
     width: '100%',
-    height: '100%',
+    height: '50%',
     position: 'relative',
     background: theme.palette.background.paper,
     overflow: 'hidden',
   },
   image: {
-    minHeight: 400,
+    minHeight: 100,
     objectFit: 'cover',
     [theme.breakpoints.down('sm')]: {
       width: 'auto',
@@ -43,8 +43,8 @@ const Hero = props => {
   return (
     <div className={clsx(classes.root, className)} {...rest}>
       <Image
-        src="https://assets.maccarianagency.com/the-front/photos/about/hero-image.png"
-        srcSet="https://assets.maccarianagency.com/the-front/photos/about/hero-image.png 2x"
+        src="https://ik.imagekit.io/j6phbjneuop/LRM_EXPORT_16949881023488_20190716_173112005_9B2ABGcYo.jpeg"
+        srcSet="https://ik.imagekit.io/j6phbjneuop/LRM_EXPORT_16949881023488_20190716_173112005_9B2ABGcYo.jpeg"
         alt="About"
         className={classes.image}
         lazyProps={{

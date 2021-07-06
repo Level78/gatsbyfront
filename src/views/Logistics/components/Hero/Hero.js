@@ -25,6 +25,7 @@ import { HeroShaped } from 'components/organisms';
 
 
 
+
 const useStyles = makeStyles(theme => ({
   fontWeight900: {
     fontWeight: 900,
@@ -69,7 +70,7 @@ const useStyles = makeStyles(theme => ({
     },
   },
   imageAnimation: {
-    background: `url("https://ik.imagekit.io/j6phbjneuop/PLS_Gallery_New_Pic_2_OFmLeHp79.jpeg")`,
+    background: `url("https://ik.imagekit.io/j6phbjneuop/ezgif.com-gif-maker__10__0NZ7lNuXy.gif")`,
     backgroundRepeat: 'repeat',
     backgroundAttachment: 'scroll',
     backgroundSize: '400px auto',
@@ -85,7 +86,7 @@ const useStyles = makeStyles(theme => ({
     }
   },
   imageAnimationDark: {
-    background: `url("https://ik.imagekit.io/j6phbjneuop/PLS_Gallery_New_Pic_2_OFmLeHp79.jpeg")`,
+    background: `url("assets/images/leaflet-assets/some.gif")`,
   },
   '@keyframes slideshow': {
     '0%': {
@@ -129,7 +130,7 @@ const Hero = ({ themeMode = 'light', className, ...rest }) => {
   const subtitle = 'Incepted in 2011 by a team of highly experienced and proficient professionals, Premas Life Sciences Pvt Ltd (PLS) is a young and focused Life Science company based out of Delhi, with a vision to be the technology & knowledge partners for Indian research & clinical diagnostics community.';
 
   const docsButton = (
-    <Button size="large" variant="outlined" color="primary" component="a" href="/documentation">
+    <Button size="large" variant="contained" color="" component="a" href="/documentation">
      OUR STORY
     </Button>
     

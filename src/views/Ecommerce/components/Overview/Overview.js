@@ -45,8 +45,8 @@ const Overview = props => {
       <Grid container data-aos="fade-up">
         <Grid item container alignItems="flex-start" xs={12} md={4}>
           <Image
-            src="https://assets.maccarianagency.com/the-front/photos/ecommerce/overview-cover-left.png"
-            srcSet="https://assets.maccarianagency.com/the-front/photos/ecommerce/overview-cover-left@2x.png 2x"
+            src="https://ik.imagekit.io/j6phbjneuop/pexels-cottonbro-5721674_XI3vG0Zgd.jpg"
+            srcSet="https://ik.imagekit.io/j6phbjneuop/pexels-cottonbro-5721674_XI3vG0Zgd.jpg"
             className={clsx(classes.image, classes.imageLeft)}
             lazy={false}
           />
@@ -62,13 +62,12 @@ const Overview = props => {
           <SectionHeader
             title={
               <span className={clsx(classes.textWhite, classes.title)}>
-                Fide more products
+                Find more products
               </span>
             }
             subtitle={
               <span className={classes.textWhite}>
-                If we're no longer the right solution for you, we'll allow you
-                to export and take your data at anytime for any reason.
+              Reduce single cell data variability, generating reproducible and consistent results.
               </span>
             }
             ctaGroup={[
@@ -82,8 +81,8 @@ const Overview = props => {
         </Grid>
         <Grid item container justify="flex-end" xs={12} md={4}>
           <Image
-            src="https://assets.maccarianagency.com/the-front/photos/ecommerce/overview-cover-right.png"
-            srcSet="https://assets.maccarianagency.com/the-front/photos/ecommerce/overview-cover-right@2x.png 2x"
+            src="https://ik.imagekit.io/j6phbjneuop/Integration_zqhUf8nG5y.svg"
+            srcSet="https://ik.imagekit.io/j6phbjneuop/Integration_zqhUf8nG5y.svg"
             className={classes.image}
             lazy={false}
           />

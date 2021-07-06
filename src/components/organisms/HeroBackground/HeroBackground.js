@@ -25,7 +25,7 @@ const useStyles = makeStyles(theme => ({
     left: 0,
     right: 0,
     bottom: 0,
-    opacity: 0.2,
+    opacity: 7,
     width: '100%',
     height: '100%',
     zIndex: 1,
@@ -35,7 +35,7 @@ const useStyles = makeStyles(theme => ({
     backgroundRepeat: 'no-repeat',
   },
   noCoverOpacity: {
-    opacity: 1,
+    opacity: 6,
   },
 }));
 

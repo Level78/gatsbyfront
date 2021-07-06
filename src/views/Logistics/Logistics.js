@@ -7,7 +7,7 @@ import Videosec from './components/Videosec'
 import Consumer from './components/Consumer'
 import Testiment from './components/Testiment'
 // import Events from 'views/Coworking/components/Events'
-import Videohero from 'components/Videohero'
+// import Videohero from 'components/Videohero'
 import { Agency } from 'views';
 
 
@@ -43,7 +43,7 @@ const useStyles = makeStyles(theme => ({
     paddingLeft: 0,
   },
   featuresSection: {
-    background: 'url(https://assets.maccarianagency.com/the-front/illustrations/patterns-bg.svg) no-repeat center',
+    background: 'url(https://ik.imagekit.io/j6phbjneuop/output-onlinejpgtools__1__6SSY9woct.png) no-repeat center',
     backgroundSize: 'contain',
   },
   integrationsSection: {
@@ -66,7 +66,7 @@ const Logistics = () => {
   return (
     <div>
       
-      <Videohero/>
+      {/* <Videohero/> */}
      
       
       <Hero />

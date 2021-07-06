@@ -6,7 +6,7 @@ import Ceo from './components/Ceo'
 import Managingd from './components/Managingd'
 import Vpsupport from './components/Vpsupport'
 import Gpm from './components/Gpm'
-// import PromoSwiper from './components'
+
 
 import {
   
@@ -78,7 +78,7 @@ const Expo = () => {
  
       <Divider />
       <SectionAlternate>
-        {/* <PromoSwiper data ={promo}/> */}
+        {/* <SwiperImage data ={promo}/> */}
       </SectionAlternate>
       socail media feeds
       <Gallery data={gallery} />

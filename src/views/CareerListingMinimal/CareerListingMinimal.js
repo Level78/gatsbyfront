@@ -1,7 +1,7 @@
 import React from 'react';
 import { Divider } from '@material-ui/core';
 import { Section, SectionAlternate } from 'components/organisms';
-import { About, Features, Hero,  Newsletter } from './components';
+import { About,    Newsletter } from './components';
 
 import { CardJobCompany } from 'components/organisms';
 import { CardBase } from 'components/organisms';
@@ -11,16 +11,16 @@ import Button from '@material-ui/core/Button'
 
 
 
-import { features,   } from './data';
+// import { features,   } from './data';
 import Dialoguetsm from 'components/organisms/Dialoguetsm';
 
 const CareerListingMinimal = () => (
   <div>
-    <Hero />
+    {/* <Hero /> */}
     <Section>
       <About />
     </Section>
-    <Features data={features} />
+    {/* <Features data={features} /> */}
 
     
   

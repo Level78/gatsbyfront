@@ -90,8 +90,8 @@ const Xgenone = props => {
             title="Automate your single cell workflows"
             subtitle={<span className={classes.price}>Chromium Connect</span>}
             ctaGroup={[
-              <Button variant="contained" color="primary" size="large">
-                Buy now
+              <Button variant="disabled" color="primary" size="large">
+                Explore Quickbook
               </Button>,
                 <FormControlLabel
                 control={<Switch checked={checked} onChange={handleChange} />}
